@@ -12,7 +12,7 @@ params:
   profile:
     enable: true
     name: Simon Doe
-    tagline: Senior Software Engineer
+    tagline: Senior Software Enginee
     avatar: avatar.png
   contact:
     enable: true
