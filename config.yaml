@@ -2,7 +2,7 @@
 # baseURL: 'http://example.org/'
 relativeURLs: true
 languageCode: en
-title: Example Resume
+title: Colin Dickens Resume
 theme: hugo-devresume-theme
 params:
   author: CowboySmall
@@ -11,22 +11,22 @@ params:
   textPrimaryColor: '#292929'
   profile:
     enable: true
-    name: Simon Doe
-    tagline: Senior Software Enginee
-    avatar: avatar.png
+    name: Colin Dickens
+    tagline: Student
+    avatar: avatar.JPG
   contact:
     enable: true
-    location: New York
+    location: Alabama
     list:
       # - icon: fas fa-phone-square
-        # url: 'tel:#'
-        # text: 0123 4567 87
+      # url: 'tel:#'
+      # text: 0123 4567 87
       - icon: fas fa-envelope-square
         url: 'mailto:#'
-        text: simon.doe@yourwebsite.com
+        text: cdickens0201@nacc.edu
       - icon: fas fa-globe
         url: '#'
-        text: www.yourwebsite.com
+        text: https://www.linkedin.com/in/colin-dickens-/
   skills:
     enable: true
     list:
@@ -48,12 +48,9 @@ params:
   education:
     enable: true
     list:
-      - degree: MSc in Computer Science
-        university: University College London
-        dates: 2010 - 2011
-      - degree: BSc Maths and Physics
-        university: Imperial College London
-        dates: 2007 - 2010
+      - degree: MIS
+        university: University of Alabama
+        dates: 2018 - 2022
   awards:
     enable: false
     list:
@@ -73,82 +70,26 @@ params:
   interests:
     enable: true
     list:
-      - name: Climbing
-      - name: Snowboarding
-      - name: Photography
+      - name: Skiing
+      - name: Programing
+      - name: Sports
       - name: Travelling
   summary:
     enable: true
     text: >-
-      Summarise your career here. Donec quam felis, ultricies nec, pellentesque
-      eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-      commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-      ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
-      leo. Sed fringilla mauris sit amet nibh.
+      Hello, I go to the University of Alabama. I'm majoring in MIS with a minor in computing technologies. I have two brothers. I played football lacrosse and hockey in high school. I enjoy golfing. I also like trying different foods.
   experience:
     enable: true
     list:
-      - title: Senior Software Engineer
-        dates: 2019 - Present
-        company: Google
+      - title: Student
+        dates: 2018 - Present
+        company: University of Alabama
         details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor
-          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-          dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Donec quam felis.
+          Took MIS programing classes learning different languages.
         items:
-          - details: 'Lorem ipsum dolor sit amet, consectetuer.'
-          - details: Aenean commodo ligula eget dolor.
-          - details: Etiam ultricies nisi vel augue.
-      - title: Lead Software Developer
-        dates: 2016 - 2019
-        company: Apple
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem. Donec pede justo, fringilla vel.
-        items:
-          - details: 'Lorem ipsum dolor sit amet, consectetuer.'
-          - details: Aenean commodo ligula eget dolor.
-      - title: Senior Software Developer
-        dates: 2014 - 2016
-        company: Dropbox
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.
-      - title: Senior Developer
-        dates: 2013 - 2014
-        company: Uber
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus.
-      - title: Backend Developer
-        dates: 2014 - 2016
-        company: Amazon
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.
-      - title: Frontend Developer
-        dates: 2013 - 2014
-        company: Startup
-        details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus.
+          - details: C#
+          - details: Java
+          - details: Java Script
   projects:
     enable: false
     list:
@@ -186,11 +127,11 @@ params:
       - icon: fab fa-github-square
         url: //github.com/username
         title: username
-      # - icon: fab fa-linkedin
+        # - icon: fab fa-linkedin
         # url: //linkedin.com/in/username
         # title: username
-      # - icon: fab fa-twitter-square
+        # - icon: fab fa-twitter-square
         # url: //twitter.com/username
         # title: '@username'
   footer:
-    copyright: Simon Doe
+    copyright: Colin Dickens 2020
